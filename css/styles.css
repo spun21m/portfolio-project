@@ -88,6 +88,21 @@ p {
   padding: 120px 60px;
 }
 
+.work-inquiry-section {
+  background: var(--secondary-color);
+  margin: 0 67px 331px;
+  border-radius: 20px;
+  padding: 10px 60px;
+}
+
+.work-inquiry-section h2 {
+  font-size: 48px;
+}
+
+.work-inquiry-section p {
+  font-size: 18px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 52px;
@@ -103,5 +118,27 @@ p {
   .project-section {
     padding: 0;
     text-align: center;
+  }
+
+  .work-inquiry-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-inquiry-section h2 {
+    font-size: 20px;
+  }
+  .work-inquiry-section p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .work-inquiry-section .btn-branding {
+    background: var(--branding-color);
+    font-weight: 500;
+    font-size: 8px;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    line-height: 14px;
   }
 }
