@@ -141,4 +141,7 @@ p {
     border-radius: 4px;
     line-height: 14px;
   }
+  .work-inquiry-section .p-small {
+    padding: 24px !important;
+  }
 }
