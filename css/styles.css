@@ -61,12 +61,16 @@ p {
   line-height: 27px;
 }
 
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: black;
+}
+
 .title-section {
   font-size: 18px;
 }
 
 .btn-branding-outline {
-  background: #ffffff;
   color: var(--branding-color);
   font-weight: 500;
   font-size: 16px;
@@ -74,6 +78,10 @@ p {
   border-radius: 4px;
   border: 1px solid var(--branding-color);
   line-height: 27px;
+}
+
+.btn-branding-outline:hover {
+  border: 1px solid var(--branding-color);
 }
 
 .project-section {
