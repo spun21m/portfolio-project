@@ -219,7 +219,6 @@ footer .social-links a:hover {
     padding: 30px;
   }
   .contact-box {
-    /* display: flex; */
     flex-direction: column;
     text-align: center;
   }
