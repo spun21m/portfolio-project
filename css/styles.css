@@ -60,7 +60,7 @@ p {
   padding: 60px 20px 0;
 }
 
-.content-box {
+.content-tools-projects {
   padding: 30px 120px;
   line-height: 2;
 }
@@ -70,13 +70,12 @@ p {
   line-height: 80px;
 }
 
-
 .content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
 
-.content-box h2 {
+.content-tools-projects h2 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 24px;
@@ -130,6 +129,10 @@ p {
 
 .project-section {
   padding: 60px;
+}
+
+.content-tools-projects .btn-branding {
+  margin: 48px;
 }
 
 nav {
@@ -235,6 +238,24 @@ footer .social-links a:hover {
     font-size: 15px;
     padding: 13px 18px;
     line-height: 14px;
+  }
+
+  .content-tools-projects {
+    padding: 30px;
+  }
+
+  .content-tools-projects h2 {
+    text-align: center;
+  }
+
+  .content-tools-projects .tools {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-tools-projects .btn-branding {
+    font-size: 15px;
+    margin: 0;
   }
 
   nav a {
